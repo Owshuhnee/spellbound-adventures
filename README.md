@@ -244,3 +244,18 @@ This project prioritizes:
 * learning through experience
 
 ---
+
+## 🔀 Git Workflow
+
+This project follows a simple branching strategy:
+
+* `main` → stable, working version
+* `dev` → active development
+
+### Workflow
+
+1. All changes are made in the `dev` branch
+2. When features are stable, they are merged into `main`
+3. `main` should always remain clean and runnable
+
+This setup keeps the project organized while remaining simple for solo or small team development.
