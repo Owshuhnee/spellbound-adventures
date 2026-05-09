@@ -1,252 +1,200 @@
-# 🧙‍♂️ Spellbound Adventures
+# Spellbound Adventures
 
-*Interactive Voice & Drawing RPG for Kids*
-
----
-
-## 📌 Overview
-
-**Spellbound Adventures** is a low-stimulation, educational fantasy game inspired by Dungeons & Dragons, designed for young children.
-
-Instead of tapping buttons, players interact with the game by:
-
-* 🎤 **Speaking commands** (e.g. "Fire", "Block")
-* ✍️ **Drawing simple shapes** (e.g. lines, symbols)
-* 🧠 **Making decisions in story-driven encounters**
-
-The goal is to create a calm, imagination-driven experience that encourages learning through play.
+*Interactive Fantasy Storytelling for Kids*
 
 ---
 
-## ❗ Problem
+## Overview
 
-Modern children’s games are often:
+Spellbound Adventures is a low-stimulation interactive fantasy storytelling app.
 
-* Overstimulating (bright visuals, fast feedback loops)
-* Passive (tap-based interactions)
-* Lacking meaningful learning or creativity
+Inspired by tabletop roleplaying games like Dungeons & Dragons, the app encourages kids to:
 
-Additionally:
+- imagine freely
+- speak naturally
+- solve problems creatively
+- participate in collaborative storytelling
 
-* Limited **voice-first gameplay experiences** (useful for car rides or hands-free play)
-* Educational apps often feel like “school” rather than fun
+Instead of relying on fast-paced gameplay or heavy graphics, the experience focuses on:
 
----
+- imagination
+- narration
+- voice interaction
+- storytelling-driven adventure
 
-## 💡 Solution
+Players are not locked into predetermined actions.
 
-This project introduces a **"Do to Act" system**, where players must perform real-world actions to progress.
+Rather than selecting fixed commands, children can describe what they want to do in their own words:
 
-Examples:
+- “I throw sand at the dragon!”
+- “I hide behind the rocks!”
+- “I try to talk to the goblin!”
 
-* Say “Fire” → cast a spell 🔥
-* Draw a line → perform an attack 🗡️
-* Say “Block” → defend 🛡️
-
-This makes gameplay:
-
-* Active instead of passive
-* Skill-based (speech, drawing, thinking)
-* Engaging without relying on heavy graphics
+The app interprets responses and continues the story dynamically, creating a playful and creativity-driven experience.
 
 ---
 
-## ✨ Core Features
+## Vision
 
-### 🧠 Gameplay
+To create a calm, imagination-first storytelling experience that:
 
-* Turn-based, story-driven encounters
-* Choice-based progression
-* Replayable short scenarios
+- encourages creativity
+- promotes verbal expression
+- supports collaborative play
+- reduces overstimulation from traditional mobile games
 
+The project aims to feel more like:
 
-### 🎤 Voice Interaction
+- an interactive audiobook
+- a fantasy bedtime story
+- a collaborative adventure narrator
 
-* Keyword-based speech recognition
-* Simple command system (e.g. "Fire", "Slash", "Shield")
-
-
-### ✍️ Drawing Input
-
-* Basic gesture recognition:
-
-  * Line → attack
-  * Triangle → fire
-  * Wave → water
-
-
-### 🧙 Character Roles
-
-* **Wizard** → spells (words + symbols)
-* **Swordie (Warrior)** → actions (commands + motion)
-* **Ranger** → aim + logic
-
-
-### 📖 Story Mode
-
-* Short narrated adventures (5–10 minutes)
-* Interactive problem-solving scenarios
-
-
-### 🚗 Drive Mode *(Planned)*
-
-* Voice-only gameplay
-* Minimal screen interaction
-* Designed for parents and kids on the go
-
-
-### 🧘 Low-Stimulation Design
-
-* Minimal UI
-* Calm visuals
-* No flashing or high-intensity effects
-
+than a traditional mobile RPG.
 
 ---
 
-## 🚀 MVP Scope
+## Core Concept
+“What do you want to do?”
 
-The initial version focuses on a single playable scenario:
+The player is presented with situations instead of fixed outcomes.
 
-### 🐉 *The Bridge of Ember Creek*
+Example:
 
-* Encounter with a small dragon
-* 3 gameplay phases:
+Narrator:
 
-  * Attack
-  * Defend
-  * Solve (bridge on fire)
+“The dragon blocks the bridge. What do you do?”
 
+Possible child responses:
 
-### ✅ Included
+- “I use fire magic!”
+- “I hide!”
+- “I throw mud!”
+- “I ask the dragon to move!”
 
-* Voice input (basic keyword matching)
-* Simple drawing input (gesture placeholder)
-* Text-based narration
-* Wizard + Swordie gameplay
+The system interprets the intent and adapts the story accordingly.
 
+This creates:
 
-### ❌ Not Included (Yet)
-
-* Multiplayer
-* Advanced animations
-* Complex AI systems
-* Large open world
+- open-ended interaction
+- imagination-driven gameplay
+- replayable storytelling experiences
 
 ---
 
-## 🛠️ Tech Stack
+## Game Modes
 
-### Frontend
+### Drive Mode
+Drive Mode is the primary experience of the app.
 
-* React Native *(planned)*
-  OR Flutter (alternative)
+Designed for:
 
+- car rides
+- low-distraction interaction
+- voice-first storytelling
 
-### Input Systems
+Features:
 
-* Speech-to-text (device API)
-* Canvas drawing (gesture detection)
+- narration-first gameplay
+- passive voice listening
+- minimal screen interaction
+- calm, child-friendly pacing
 
+The app should feel safe, relaxing, and imaginative during travel.
 
-### Backend
+### Adventure Mode
+Adventure Mode expands interaction through:
 
-* None (local-first MVP)
+- drawing symbols
+- touch interaction
+- visual storytelling
+- fantasy scene exploration
 
-
-### Tools
-
-* Canva → UI and visual assets
-* Inkscape → SVG icons and symbols
-* GitHub → version control and documentation
-
----
-
-## 📂 Project Structure
-
-```
-spellbound-adventures/
-│
-├── README.md
-├── docs/
-│   ├── game-design.md
-│   ├── mechanics.md
-│   ├── story/
-│   ├── game-modes/
-│   └── ui/ 
-│
-├── app/ (or src/)
-│   ├── components/
-│   ├── screens/
-│   ├── input/
-│   ├── logic/
-│   └── assets/
-│
-└── assets/
-    ├── icons/
-    ├── backgrounds/
-    └── audio/
-```
+while maintaining the same low-stimulation philosophy.
 
 ---
 
-## 🎯 Learning Goals (Developer)
+## Core Features
 
-This project is part of my transition into IT/software development.
-
-Focus areas:
-
-* Building interactive systems (voice + gesture input)
-* Structuring a real-world app project
-* UI/UX design for kids
-* Applying problem-solving and modular design
-
----
-
-## 🧠 Future Ideas
-
-* Additional classes (Ranger, Guardian)
-* Spell progression system
-* Custom spell creation
-* Physical integration (e.g. NFC tags / 3D printed tokens)
-* Parent dashboard
-* Cloud backend (AWS)
+- Natural voice interaction
+- Interactive storytelling
+- Open-ended decision making
+- Optional drawing/sigil interaction
+- Voice-first Drive Mode
+- Touch-enhanced Adventure Mode
+- Calm and low-stimulation UI/UX
 
 ---
 
-## 🤝 Contributing
+## Design Philosophy
 
-This is currently a personal learning project, but feedback and ideas are welcome.
+Spellbound Adventures prioritizes:
 
----
+- imagination over graphics
+- participation over passive watching
+- creativity over competition
+- storytelling over fast-paced gameplay
 
-## 📄 License
-
-TBD
-
----
-
-## 💬 Notes
-
-This project prioritizes:
-
-* imagination over graphics
-* interaction over passive play
-* learning through experience
+The goal is not to “win” encounters, but to create memorable and creative adventures.
 
 ---
 
-## 🔀 Git Workflow
+## MVP Scope
+Initial MVP includes:
 
-This project follows a simple branching strategy:
+- one short playable adventure
+- narration-driven interaction
+- basic voice interpretation
+- Drive Mode gameplay
+- simple story progression
 
-* `main` → stable, working version
-* `dev` → active development
+The focus of the MVP is validating:
 
-### Workflow
+- interaction flow
+- storytelling experience
+- child engagement
+- voice-first usability
 
-1. All changes are made in the `dev` branch
-2. When features are stable, they are merged into `main`
-3. `main` should always remain clean and runnable
+---
 
-This setup keeps the project organized while remaining simple for solo or small team development.
+## Tech Direction
+
+- React Native
+- Speech-to-text APIs
+- Lightweight interaction logic
+- Modular story system
+
+---
+
+## Documentation
+Project planning and design documents can be found in:
+
+docs/
+
+Including:
+
+- game design
+- UI wireframes
+- gameplay systems
+- game modes
+- interaction mechanics
+
+---
+
+## Long-Term Ideas
+- AI-assisted storytelling
+- adaptive narration
+- parent-child co-op adventures
+- custom story creation
+- offline road-trip mode
+- physical companion items (cards, NFC tags, 3D printed tokens)
+
+---
+
+## Project Status
+
+Currently in:
+
+- concept design
+- gameplay planning
+- wireframing
+- interaction prototyping
