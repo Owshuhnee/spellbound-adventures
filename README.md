@@ -59,14 +59,12 @@ This makes gameplay:
 * Choice-based progression
 * Replayable short scenarios
 
----
 
 ### 🎤 Voice Interaction
 
 * Keyword-based speech recognition
 * Simple command system (e.g. "Fire", "Slash", "Shield")
 
----
 
 ### ✍️ Drawing Input
 
@@ -76,7 +74,6 @@ This makes gameplay:
   * Triangle → fire
   * Wave → water
 
----
 
 ### 🧙 Character Roles
 
@@ -84,14 +81,12 @@ This makes gameplay:
 * **Swordie (Warrior)** → actions (commands + motion)
 * **Ranger** → aim + logic
 
----
 
 ### 📖 Story Mode
 
 * Short narrated adventures (5–10 minutes)
 * Interactive problem-solving scenarios
 
----
 
 ### 🚗 Drive Mode *(Planned)*
 
@@ -99,13 +94,13 @@ This makes gameplay:
 * Minimal screen interaction
 * Designed for parents and kids on the go
 
----
 
 ### 🧘 Low-Stimulation Design
 
 * Minimal UI
 * Calm visuals
 * No flashing or high-intensity effects
+
 
 ---
 
@@ -122,7 +117,6 @@ The initial version focuses on a single playable scenario:
   * Defend
   * Solve (bridge on fire)
 
----
 
 ### ✅ Included
 
@@ -131,7 +125,6 @@ The initial version focuses on a single playable scenario:
 * Text-based narration
 * Wizard + Swordie gameplay
 
----
 
 ### ❌ Not Included (Yet)
 
@@ -149,20 +142,17 @@ The initial version focuses on a single playable scenario:
 * React Native *(planned)*
   OR Flutter (alternative)
 
----
 
 ### Input Systems
 
 * Speech-to-text (device API)
 * Canvas drawing (gesture detection)
 
----
 
 ### Backend
 
 * None (local-first MVP)
 
----
 
 ### Tools
 
@@ -182,7 +172,8 @@ spellbound-adventures/
 │   ├── game-design.md
 │   ├── mechanics.md
 │   ├── story/
-│   └── ui/
+│   ├── game-modes/
+│   └── ui/ 
 │
 ├── app/ (or src/)
 │   ├── components/
