@@ -1,5 +1,7 @@
 # The Mystery of Moonpatch Farm
 
+![Flowchart](mvp-test-story.png)
+
 ## Story Title
 The Mystery of Moonpatch Farm
 
